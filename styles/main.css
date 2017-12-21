@@ -1,0 +1,149 @@
+@media only screen and (min-device-width: 400px) {
+  body {
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Signika', sans-serif;
+    /* color:#0f4f31 ;
+        color:#15694d ; */
+  }
+  /* header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    color: white;
+    height: 10vh;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    position: sticky;
+  }
+  h1 {
+    font-size: 36px;
+    font-family: 'Questrial', sans-serif;
+  }
+  .logo {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  /* end header styles  */
+  /* display fallbacks */
+  h2 {
+    font-size: 20px;
+
+    font-family: 'Signika', sans-serif;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+  }
+
+  button {
+    background-color: #15694d;
+    color: white;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+  }
+  button:hover {
+    background-color: #0f4f31;
+    color: white;
+        margin-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 2px;
+  }
+
+  form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* end fallbacks */
+  /* main/body styles */
+  main {
+    /* padding-left: 20px;
+  padding-right: 20px; */
+  }
+  .teamDisplayContainer {
+    /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cityAddContainer {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    overflow: scroll;
+    max-height: 200px;
+  }
+  .displayAllCityNames {
+    font-size: 30px;
+    /* background-color: gray; */
+  }
+  .displayAllCityNames:hover {
+    color: #15694d;
+    /* background-color: gray; */
+  }
+  .showTeamLogo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .showTeamDiv {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .showTeamName, .showCityName, .showTeamState, .showTeamCountry, .showTeamWebsite {
+    color: black;
+  }
+  .labels {
+    color: gray;
+    font-size: 20px;
+  }
+  .teamInfo {
+    font-size: 50px;
+    color: black;
+  }
+  /* main/body styles end */
+  /* footer styles   */
+  footer {
+    height: 5vh;
+    display: flex;
+    background-color: #252525;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    position: sticky;
+    -webkit-box-shadow: 0 -4px 22px -6px black;
+    -moz-box-shadow: 0 -4px 22px -6px black;
+    box-shadow: 0 -4px 22px -6px black;
+  }
+  .logo-footer {
+    max-width: 40px;
+    max-height: 40px;
+    padding-left: 30px;
+  }
+  .footer-text {
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+  }
+  .copy {
+    padding-right: 30px;
+    font-size: 12px;
+  }
+  /* footer styles end */
+  /* media query closer */
+}
+
+
+
+.cont {
+  padding: 20px;
+}

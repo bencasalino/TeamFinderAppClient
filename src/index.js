@@ -1,7 +1,7 @@
 const baseURL = "https://infinite-plateau-10584.herokuapp.com/";
 var globalResponse = [];
 
-// const newBaseURL = ""; 
+// const newBaseURL = "";
 
 fetch(baseURL)
   .then(response => response.json())
@@ -38,16 +38,3 @@ fetch(baseURL)
   })
 
   .catch(err => console.log(err));
-// this fetch is not doing anything what was it even for???
-// fetch("https://infinite-plateau-10584.herokuapp.com/", {
-//     method: "post",
-//     body: JSON.stringify({
-//       greeting: "hello"
-//     }),
-//     headers: new Headers({
-//       "Content-Type": "application/json"
-//     })
-//   })
-//   .then(response => response.json())
-//   .then(response => console.log(response))
-//   .catch(err => console.log(err));

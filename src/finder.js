@@ -37,4 +37,3 @@ fetch(baseURL)
     }
   })
 
-  .catch(err => console.log(err));

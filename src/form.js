@@ -27,7 +27,5 @@ function postData() {
 
     .then(response => response.json())
     .then(response => {
-
-      console.log(response);
-    }).catch(console.error);
+    });
 }
